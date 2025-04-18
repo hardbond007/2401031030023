@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+  }
+  
+  body {
+    background: #f5f7fa;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  nav.navbar {
+    background: #2196f3;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  nav.navbar ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  nav.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .page {
+    padding: 20px;
+    background: white;
+    margin: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  }
+  
+  .page h1, .page h2 {
+    color: #2196f3;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background: #2196f3;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .card, .forum-card, .category, .item {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .tip-list li {
+    margin: 8px 0;
+  }
+  
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .category {
+    flex: 1 1 45%;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  .tools-list ul {
+    margin-left: 20px;
+  }
+  
+  .search-bar, textarea, select, input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .profile img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+  }
+  
+  .stats div {
+    text-align: center;
+  }
+  
+  .stats strong {
+    display: block;
+    font-size: 1.5rem;
+    color: #2196f3;
+  }
+  
+  .setting {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+  }
+  

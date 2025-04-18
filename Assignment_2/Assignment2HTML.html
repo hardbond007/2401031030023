@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DIY Home Improvement Hub</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#tutorials">Tutorials</a></li>
+      <li><a href="#tips">Tips & Tricks</a></li>
+      <li><a href="#categories">Categories</a></li>
+      <li><a href="#tools">Tool Finder</a></li>
+      <li><a href="#community">Community</a></li>
+      <li><a href="#profile">Profile</a></li>
+      <li><a href="#settings">Settings</a></li>
+    </ul>
+  </nav>
+
+  <!-- 1. Home -->
+  <section id="home" class="page">
+    <h1>Welcome to DIY Home Improvement Hub</h1>
+    <p>Your one-stop destination for tutorials, tips, and community help on DIY home improvement.</p>
+    <button>Get Started</button>
+  </section>
+
+  <!-- 2. Tutorials -->
+  <section id="tutorials" class="page">
+    <h2>Tutorial Library</h2>
+    <div class="card"><h3>Build a Bookshelf</h3><p>Step-by-step guide.</p></div>
+    <div class="card"><h3>Paint Your Room</h3><p>Simple color transformations.</p></div>
+    <div class="card"><h3>Install a Light Fixture</h3><p>Tools and steps explained.</p></div>
+  </section>
+
+  <!-- 3. Tips & Tricks -->
+  <section id="tips" class="page">
+    <h2>Tips & Tricks</h2>
+    <ul class="tip-list">
+      <li>Use painter’s tape for perfect lines.</li>
+      <li>Label wires before unplugging them.</li>
+      <li>Use vinegar to clean limescale.</li>
+    </ul>
+  </section>
+
+  <!-- 4. Categories -->
+  <section id="categories" class="page">
+    <h2>DIY Categories</h2>
+    <div class="grid">
+      <div class="category">Plumbing</div>
+      <div class="category">Electrical</div>
+      <div class="category">Woodwork</div>
+      <div class="category">Painting</div>
+      <div class="category">Decor</div>
+    </div>
+  </section>
+
+  <!-- 5. Tool Finder -->
+  <section id="tools" class="page">
+    <h2>Tool Finder</h2>
+    <label for="task">Select Task</label>
+    <select id="task">
+      <option>Hanging a picture</option>
+      <option>Fixing a leak</option>
+      <option>Painting a wall</option>
+    </select>
+    <div class="tools-list">
+      <p>Recommended Tools:</p>
+      <ul>
+        <li>Hammer</li>
+        <li>Drill</li>
+        <li>Level</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 6. Community Forum -->
+  <section id="community" class="page">
+    <h2>Community Forum</h2>
+    <input type="text" placeholder="Search questions..." class="search-bar" />
+    <textarea placeholder="Ask your DIY question..."></textarea>
+    <button>Post</button>
+    <div class="forum-card">
+      <h4>How to seal a bathroom sink?</h4>
+      <p><strong>By:</strong> HomeFixer</p>
+      <a href="#">4 Replies</a>
+    </div>
+    <div class="forum-card">
+      <h4>Best tools for tile cutting?</h4>
+      <p><strong>By:</strong> DIYDad</p>
+      <a href="#">2 Replies</a>
+    </div>
+  </section>
+
+  <!-- 7. Profile -->
+  <section id="profile" class="page">
+    <h2>Profile</h2>
+    <div class="profile">
+      <img src="https://via.placeholder.com/100" alt="avatar" />
+      <div>
+        <h3>AlexD</h3>
+        <p>DIY enthusiast. Woodworker. Fix-it-all!</p>
+      </div>
+    </div>
+    <div class="stats">
+      <div><strong>12</strong><span>Tutorials</span></div>
+      <div><strong>8</strong><span>Questions</span></div>
+      <div><strong>24</strong><span>Answers</span></div>
+    </div>
+  </section>
+
+  <!-- 8. Settings & Feedback -->
+  <section id="settings" class="page">
+    <h2>Settings & Feedback</h2>
+    <div class="setting">
+      <label>Enable Notifications</label>
+      <input type="checkbox" checked />
+    </div>
+    <div class="setting">
+      <label>Dark Mode</label>
+      <input type="checkbox" />
+    </div>
+    <label>Rate Us</label>
+    <select>
+      <option>⭐⭐⭐⭐⭐</option>
+      <option>⭐⭐⭐⭐</option>
+      <option>⭐⭐⭐</option>
+      <option>⭐⭐</option>
+      <option>⭐</option>
+    </select>
+    <textarea placeholder="Your suggestions..."></textarea>
+    <button>Submit</button>
+  </section>
+
+</body>
+</html>
